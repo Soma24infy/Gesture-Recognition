@@ -7,7 +7,7 @@ We need to develop a cool feature in the smart-TV that can recognise five differ
 
 For analysing videos using neural networks, two types of architectures are used commonly. One is the standard CNN + RNN architecture in which you pass the images of a video through a CNN which extracts a feature vector for each image, and then pass the sequence of these feature vectors through an RNN. This is something you are already familiar with (in theory). 
 
-The other popular architecture used to process videos is a natural extension of CNNs - a 3D convolutional network. In this project, you will try both these architectures
+The other popular architecture used to process videos is a natural extension of CNNs - a 3D convolutional network. In this project, we will try both these architectures
 
 ## Conclusions
 The Model built with Time distributed Conv2D and ConvLSTM2D gave better results compared to all the other Conv3D models and also the model has very least number of parameters compared to other models.
